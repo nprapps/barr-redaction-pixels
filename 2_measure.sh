@@ -1,5 +1,6 @@
 #!/usr/env bash
 mkdir -p histograms
+rm histograms/*
 
 red="rgb(236,64,37)"
 blue="rgb(5,51,255)"
