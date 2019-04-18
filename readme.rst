@@ -20,9 +20,9 @@ Takes the output of ``2_measure.sh`` and generates a CSV with the count of color
 4_ocr.sh
 --------
 
-*Requires ``1_print.sh``.* Runs the report pages through Tesseract and generates an OCR text file with the report contents.
+*Requires extracted pages from step 1.* Runs the report pages through Tesseract and generates an OCR text file with the report contents.
 
 5_montage.sh
 ------------
 
-*Requires ``1_print.sh``.* Generates tiled images in a ``montages`` folder consisting of the pages for each major section of the report.
+*Requires extracted pages from step 1.* Generates tiled images in a ``montages`` folder consisting of the pages for each major section of the report.
