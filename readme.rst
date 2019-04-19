@@ -1,6 +1,6 @@
 Some scripts for working with the image data from the redacted Mueller report
 
-Prerequisite: put the report into the directory as ``report.pdf``.
+Prerequisite: You should have Tesseract, Imagemagick, and the Poppler tools installed. Put the report into the directory as ``report.pdf``.
 
 1_print.sh
 ----------
