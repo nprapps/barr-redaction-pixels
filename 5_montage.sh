@@ -18,7 +18,7 @@ function makeMontage() {
     files+=("pages/report-$page.png")
   done
   # echo "${files[@]}";
-  montage "${files[@]}" -geometry 100x -quality 60% -tile 10x "montages/tiled-$name.png"
+  montage "${files[@]}" -geometry 100x -quality 60% -tile 10x "montages/tiled-$name.jpg"
 }
 
 makeMontage 9 18 section1-summary
